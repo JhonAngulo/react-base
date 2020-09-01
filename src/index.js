@@ -1,16 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import 'normalize.css'
 import './assets/styles/global.scss'
-// const user = {
-//   user1: 'manuel',
-//   list: {
-//     name: 'manuel angulo'
-//   }
-// }
 
-// console.log(user?.list?.name)
+import App from './App'
 
-render(
-  <h1>Hola mundo con React</h1>,
-  document.getElementById('root')
-)
+render(<App />, document.getElementById('root'))
